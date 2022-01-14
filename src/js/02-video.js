@@ -8,6 +8,7 @@ const options = {
     controls: false,
     keyboard: true
 }
+
 const iframe = document.querySelector('iframe');
 const player = new Vimeo.Player(iframe, options);
 
